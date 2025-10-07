@@ -1,0 +1,36 @@
+*{
+    font-family: 'PT Serif', serif;
+    line-height: 1.6;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px
+}
+.bio{
+    background-color: rgb(150, 158, 183);
+}
+h1{
+    text-align: center;
+}
+.paintings{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.paintings img{
+    width: 100%; 
+    max-height: 350px;
+    object-fit: cover; 
+    object-position: center;
+
+}
+.input-button{
+    margin-block    : 10px;
+    padding: 5px;
+    background-color:rgba(124, 134, 165, 0.705);
+}
